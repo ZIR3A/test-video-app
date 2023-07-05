@@ -2,10 +2,8 @@ const windmill = require("@windmill/react-ui/config");
 const colors = require("tailwindcss/colors");
 
 module.exports = windmill({
-  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
-  mode: "jit",
   theme: {
     colors: {
       rose: colors.rose,
